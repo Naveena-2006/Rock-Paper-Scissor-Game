@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Rock Paper Scissors</h1>
+    <div id="scoreboard">
+      <p>Player: <span id="player-score">0</span> | CPU: <span id="cpu-score">0</span></p>
+    </div>
+    <div class="buttons">
+      <button data-choice="rock">✊ Rock</button>
+      <button data-choice="paper">✋ Paper</button>
+      <button data-choice="scissors">✌️ Scissors</button>
+    </div>
+    <div id="result"></div>
+    <p id="round-info">Round: <span id="round">1</span>/5</p>
+    <button id="reset-btn" style="display: none;">Restart Game</button>
+  </div>
+  <button id="theme-toggle">Toggle Dark Mode</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
